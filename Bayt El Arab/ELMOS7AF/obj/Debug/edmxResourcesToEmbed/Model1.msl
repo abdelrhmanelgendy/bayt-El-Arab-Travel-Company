@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BaytElArabModelStoreContainer" CdmEntityContainer="BaytElArabEntities">
+    <EntitySetMapping Name="daysRevenues">
+      <EntityTypeMapping TypeName="BaytElArabModel.daysRevenue">
+        <MappingFragment StoreEntitySet="daysRevenues">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="starting" ColumnName="starting" />
+          <ScalarProperty Name="ending" ColumnName="ending" />
+          <ScalarProperty Name="annotations" ColumnName="annotations" />
+          <ScalarProperty Name="money" ColumnName="money" />
+          <ScalarProperty Name="outcome" ColumnName="outcome" />
+          <ScalarProperty Name="incomes" ColumnName="incomes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
